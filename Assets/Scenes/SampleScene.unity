@@ -1493,7 +1493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveText: {fileID: 735346492}
-  bookMovesFile: {fileID: 0}
+  bookMovesFile: {fileID: 4900000, guid: f35ab9ccbd7ba3349b79bd82e0c6b608, type: 3}
 --- !u!1 &832783538
 GameObject:
   m_ObjectHideFlags: 0

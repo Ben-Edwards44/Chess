@@ -14,8 +14,6 @@ public class initialMoves : MonoBehaviour
 
     public Text moveText;
 
-    public TextAsset bookMovesFile;
-
 
     private void Start()
     {
@@ -202,7 +200,7 @@ public class initialMoves : MonoBehaviour
 
     private static string readFile()
     {
-        string path = "Assets/chessGames.txt";
+        string path = Application.dataPath + "/Resources/chessGames.txt";
         string data = File.ReadAllText(path);
 
         return data;
